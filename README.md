@@ -1,16 +1,18 @@
-### Hi there 👋
+<h1 align=center>Hey, I'm Shahab 🤖</h1>
 
-<!--
-**shahaba/shahaba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
 
-Here are some ideas to get you started:
+I'm a Data Engineer at Shopify
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects
+
+- [Event Driven Kafka Pipeline](https://github.com/shahaba/event-driven-kafka-pipeline)
+- [Rust Projects](https://github.com/shahaba/rust-projects) - Learning repo for Rust
+- [Docker Data Mesh](https://github.com/shahaba/docker-data-mesh) - TODO!
+
+
+## Tech I Work With
+
+- **Languages:** Python, Scala, Rust, Go
+
+![Hits](https://hits-app.vercel.app/hits?url=https://github.com/shahaba)
