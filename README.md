@@ -1,8 +1,14 @@
-<h1 align=center>Hey, I'm Shahab 🤖</h1>
+<h1 align=center><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Sign%20of%20the%20Horns.png" alt="Sign of the Horns" width="25" height="25" />Hey, I'm Shahab 🤖</h1>
 
-## About Me
+<p align=center>
+  <img src="animated_gif.gif" alt="Animated Gif" />  
+</p>
+
+
+## About Me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
 
 I'm a Data Engineer at Shopify
+
 
 ## Projects
 
@@ -14,5 +20,7 @@ I'm a Data Engineer at Shopify
 ## Tech I Work With
 
 - **Languages:** Python, Scala, Rust, Go
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shahaba&layout=compact)
 
 ![Hits](https://hits-app.vercel.app/hits?url=https://github.com/shahaba)
