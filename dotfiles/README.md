@@ -1,4 +1,5 @@
-# 💤 LazyVim
+# LazyVim + Tmux Dotfiles
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+Repo for my personal dotfiles for Neovim and Tmuxifier sessions
+
+Base dotfiles come from this [repo](https://github.com/cpow/neovim-for-newbs) + LazyVim starter
