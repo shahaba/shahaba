@@ -11,7 +11,7 @@
 
 I'm a Data Engineer at Shopify who loves to learn new things
 
-Bear in mind, I am terrible at puns, so I got ChatGPT to write a few for your enjoyment:
+Bear in mind, I am terrible at puns, so I got ChatGPT to write a few for your enjoyment for getting this far:
 
 - Just a pandamic problem solver trying to bear the load of these bug fixes.
 - Don’t let the complexity grizzly you, just break down the problem, beary carefully.
