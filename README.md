@@ -1,5 +1,7 @@
 <h1 align=center><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Sign%20of%20the%20Horns.png" alt="Sign of the Horns" width="25" height="25" /> Hey, I'm Shahab <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="25" height="25" /></h1>
 
+Bear with me while I try to do things and build in public
+
 <p align=center>
   <img src="coding_bears.webp" alt="Coding Bears" />  
 </p>
@@ -8,7 +10,6 @@
 ## About Me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
 
 I'm a Data Engineer at Shopify
-
 
 ## Projects
 
