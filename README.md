@@ -29,6 +29,8 @@ Remember, coding can be a **beary** challenging task, but a little humor makes i
 
 - [Event Driven Kafka Pipeline](https://github.com/shahaba/event-driven-kafka-pipeline)
 - [Rust Projects](https://github.com/shahaba/rust-projects) - Learning repo for Rust
+  - [Rustlings Exercises](https://github.com/shahaba/rustlings/tree/exercises) - Practice what you learn :fire:
+- [Go Projects](https://github.com/shahaba/go-projects) 
 - [Docker Data Mesh](https://github.com/shahaba/docker-data-mesh) - TODO!
 
 
