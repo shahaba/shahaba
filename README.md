@@ -1,7 +1,7 @@
 <h1 align=center><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Sign%20of%20the%20Horns.png" alt="Sign of the Horns" width="25" height="25" /> Hey, I'm Shahab <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="25" height="25" /></h1>
 
 
-## About Me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
+# About Me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
 
 I am a **Senior Data Engineer** specializing in distributed computing, real-time stream processing, and Kubernetes-native data platforms. With 5+ years of experience building resilient data infrastructure, I focus on designing
 scalable pipelines that balance low latency, data integrity, and cost-efficiency.
@@ -10,7 +10,7 @@ scalable pipelines that balance low latency, data integrity, and cost-efficiency
 * Deeply interested in database internals, OLAP database optimization, and cloud-native systems.
 * Ask me about: **Apache Spark, Apache Flink, Kafka, Kubernetes, or Infrastructure as Code**.
 
-## Projects
+# Projects
 
 ### Event-Driven Message Routing Engine
 [event-driven-kafka-pipeline](https://github.com/shahaba/event-driven-kafka-pipeline)
@@ -25,13 +25,13 @@ scalable pipelines that balance low latency, data integrity, and cost-efficiency
 * **Tech:** PostgreSQL, Debezium, Kafka Connect, ClickHouse, dbt, Rust
 * **Key Achievement:** Achieved near-instant replication with a transactional-to-analytical sync delay under 2 seconds.
 
-# Kubernetes-Native Spark & Airflow (In-Progress)
+### Kubernetes-Native Spark & Airflow (In-Progress)
 [k8s-spark-airflow-platform]()
 
 * **What it does:**: A local k8 cluster that runs Apache Airflow to orchestrate and scale distributed Spark jobs to processes massive datasets
 * **Tech:** Apache Spark, Airflow, Prometheus/Grafana, Kubernetes
 
-## Tech Stack
+# Tech Stack
 
 *   **Languages:** Python, Scala, Rust, Go, SQL, Bash
 *   **Streaming & Queues:** Apache Kafka, Apache Flink, Spark Streaming
