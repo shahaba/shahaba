@@ -19,6 +19,7 @@ scalable pipelines that balance low latency, data integrity, and cost-efficiency
 *   **Tech:** Apache Kafka, Python.
 
 ### Real-Time Event Processing & Analytics Lakehouse (In-Progress)
+[lakehouse-realtime-ingestion](https://github.com/shahaba/lakehouse-realtime-ingestion)
 
 *   **What it does:** Replicates transactional database records (PostgreSQL) in real-time via Debezium CDC and Kafka Connect, streaming updates into a ClickHouse OLAP warehouse. Orchestrates downstream dimensional transforms using dbt.
 *   **Tech:** PostgreSQL, Debezium, Kafka Connect, ClickHouse, dbt, Python.
