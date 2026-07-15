@@ -15,16 +15,21 @@ scalable pipelines that balance low latency, data integrity, and cost-efficiency
 ### Event-Driven Message Routing Engine
 [event-driven-kafka-pipeline](https://github.com/shahaba/event-driven-kafka-pipeline)
 
-*   **What it does:** A lightweight, event-driven streaming pipeline designed for message routing, schema validation, and structured telemetry processing.
-*   **Tech:** Apache Kafka, Python.
+* **What it does:** A lightweight, event-driven streaming pipeline designed for message routing, schema validation, and structured telemetry processing.
+* **Tech:** Apache Kafka, Python.
 
 ### Real-Time Event Processing & Analytics Lakehouse (In-Progress)
 [lakehouse-realtime-ingestion](https://github.com/shahaba/lakehouse-realtime-ingestion)
 
-*   **What it does:** Replicates transactional database records (PostgreSQL) in real-time via Debezium CDC and Kafka Connect, streaming updates into a ClickHouse OLAP warehouse. Orchestrates downstream dimensional transforms using dbt.
-*   **Tech:** PostgreSQL, Debezium, Kafka Connect, ClickHouse, dbt, Python.
-*   **Key Achievement:** Achieved near-instant replication with a transactional-to-analytical sync delay under 2 seconds.
+* **What it does:** Replicates transactional database records (PostgreSQL) in real-time via Debezium CDC and Kafka Connect, streaming updates into a ClickHouse OLAP warehouse. Orchestrates downstream dimensional transforms using dbt.
+* **Tech:** PostgreSQL, Debezium, Kafka Connect, ClickHouse, dbt, Rust
+* **Key Achievement:** Achieved near-instant replication with a transactional-to-analytical sync delay under 2 seconds.
 
+# Kubernetes-Native Spark & Airflow (In-Progress)
+[k8s-spark-airflow-platform]()
+
+* **What it does:**: A local k8 cluster that runs Apache Airflow to orchestrate and scale distributed Spark jobs to processes massive datasets
+* **Tech:** Apache Spark, Airflow, Prometheus/Grafana, Kubernetes
 
 ## Tech Stack
 
