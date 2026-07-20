@@ -3,8 +3,7 @@
 
 # About Me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
 
-I am a **Senior Data Engineer** specializing in distributed computing, real-time stream processing, and Kubernetes-native data platforms. With 5+ years of experience building resilient data infrastructure, I focus on designing
-scalable pipelines that balance low latency, data integrity, and cost-efficiency.
+I am a **Senior Data Engineer** specializing in distributed computing, real-time stream processing, and Kubernetes-native data platforms. With 7+ years of experience building resilient data infrastructure, I focus on designing scalable pipelines that balance low latency, data integrity, and cost-efficiency.
 
 * Currently building high-throughput streaming and CDC architectures.
 * Deeply interested in database internals, OLAP database optimization, and cloud-native systems.
