@@ -17,12 +17,12 @@ I am a **Senior Data Engineer** specializing in distributed computing, real-time
 * **What it does:** A lightweight, event-driven streaming pipeline designed for message routing, schema validation, and structured telemetry processing.
 * **Tech:** Apache Kafka, Python.
 
-### Real-Time Event Processing & Analytics Lakehouse (In-Progress)
+### Real-Time Event Processing & Analytics Lakehouse
 [lakehouse-realtime-ingestion](https://github.com/shahaba/lakehouse-realtime-ingestion)
 
-* **What it does:** Replicates transactional database records (PostgreSQL) in real-time via Debezium CDC and Kafka Connect, streaming updates into a ClickHouse OLAP warehouse. Orchestrates downstream dimensional transforms using dbt.
-* **Tech:** PostgreSQL, Debezium, Kafka Connect, ClickHouse, dbt, Rust
-* **Key Achievement:** Achieved near-instant replication with a transactional-to-analytical sync delay under 2 seconds.
+* **What it does:** A stream processor for high-throughput clickstream event streams, performs stateful sliding-window deduplication, and writes optimized columnar data to an open-source Data Lakehouse using Apache Iceberg, MinIO, and Trino.
+* **Tech:** Trino, Iceberg, Kafka, MinIO, Flink, Rust
+* **Key Achievement:** Achieved near-instant replication with a transactional-to-analytical sync delay late arriving data up to 1 min.
 
 ### Kubernetes-Native Spark & Airflow (In-Progress)
 [k8s-spark-airflow-platform]()
