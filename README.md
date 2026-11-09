@@ -1,41 +1,52 @@
 <h1 align=center><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Sign%20of%20the%20Horns.png" alt="Sign of the Horns" width="25" height="25" /> Hey, I'm Shahab <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="25" height="25" /></h1>
 
+<p align=center>
+  <a href="https://shahabakmal.ca">shahabakmal.ca</a> ·
+  <a href="https://linkedin.com/in/shahab-akmal">LinkedIn</a>
+</p>
 
 # About Me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
 
-I am a **Senior Data Engineer** specializing in distributed computing, real-time stream processing, and Kubernetes-native data platforms. With 7+ years of experience building resilient data infrastructure, I focus on designing scalable pipelines that balance low latency, data integrity, and cost-efficiency.
+**Senior Data Engineer at Float.** Streaming and lakehouse engineer who turns billion-event pipelines into reliable, low-cost platforms. 8+ years across Float, Kraken, Shopify, Gale Partners and Tangerine.
 
-* Currently building high-throughput streaming and CDC architectures.
-* Deeply interested in database internals, OLAP database optimization, and cloud-native systems.
-* Ask me about: **Apache Spark, Apache Flink, Kafka, Kubernetes, or Infrastructure as Code**.
+* **90% less Spark compute** for crypto compliance reporting at Kraken.
+* **~3B events/day** through Apache Flink + Apache Kafka at Shopify, making merchant search 60% faster.
+* Co-built LLM agents at Shopify that diagnose failing pipelines and test SQL fixes in sandboxes.
+* M.A.Sc. (thesis-based), University of Waterloo.
+* Ask me about: **Apache Kafka, Apache Flink, Apache Spark, Apache Iceberg or Airflow**.
+* Off hours: sci-fi, D&D (player and occasional DM), CrossFit.
 
 # Projects
 
-### Event-Driven Message Routing Engine
-[event-driven-kafka-pipeline](https://github.com/shahaba/event-driven-kafka-pipeline)
-
-* **What it does:** A lightweight, event-driven streaming pipeline designed for message routing, schema validation, and structured telemetry processing.
-* **Tech:** Apache Kafka, Python.
-
-### Real-Time Event Processing & Analytics Lakehouse
+### Real-Time Clickstream Ingestion & Lakehouse Pipeline
 [lakehouse-realtime-ingestion](https://github.com/shahaba/lakehouse-realtime-ingestion)
 
-* **What it does:** A stream processor for high-throughput clickstream event streams, performs stateful sliding-window deduplication, and writes optimized columnar data to an open-source Data Lakehouse using Apache Iceberg, MinIO, and Trino.
-* **Tech:** Trino, Iceberg, Kafka, MinIO, Flink, Rust
-* **Key Achievement:** Achieved near-instant replication with a transactional-to-analytical sync delay late arriving data up to 1 min.
+* **What it does:** Streams clickstream events from a Rust producer through Apache Kafka into Apache Flink, which deduplicates them with a 1-minute sliding window (2-minute watermark for late data) and writes Parquet to an Apache Iceberg lakehouse on MinIO, queried with Trino.
+* **Result:** Sub-second SQL on Iceberg under 5,000+ events/sec of live ingestion. The whole stack is provisioned with Terraform.
+* **Tech:** Rust, Kafka, Flink, Iceberg, MinIO, Trino, Terraform, Docker
 
-### Kubernetes-Native Spark & Airflow (In-Progress)
-[k8s-spark-airflow-platform]()
+### Spark & Airflow on Kubernetes *(in progress)*
 
-* **What it does:**: A local k8 cluster that runs Apache Airflow to orchestrate and scale distributed Spark jobs to processes massive datasets
-* **Tech:** Apache Spark, Airflow, Prometheus/Grafana, Kubernetes
+* **What it does:** A local Kubernetes platform where Apache Airflow orchestrates and scales distributed Apache Spark jobs, monitored with Prometheus and Grafana.
+* **Tech:** Spark, Airflow, Kubernetes, Prometheus, Grafana
+
+### Event-Driven Kafka Pipeline *(learning project)*
+[event-driven-kafka-pipeline](https://github.com/shahaba/event-driven-kafka-pipeline)
+
+* **What it does:** Python/Faust producers and consumers stream real-time events through Kafka into Postgres, with periodic aggregates for reporting.
+* **Tech:** Kafka, Python, Faust, PostgreSQL, Docker
+
+### Anomaly Detection Service & Monitoring *(learning project)*
+[docker-anomaly-detection](https://github.com/shahaba/docker-anomaly-detection)
+
+* **What it does:** An Isolation Forest model served behind FastAPI in Docker, with Prometheus metrics and a Grafana dashboard for traffic.
+* **Tech:** Python, scikit-learn, FastAPI, Prometheus, Grafana, Docker
 
 # Tech Stack
 
-*   **Languages:** Python, Scala, Rust, Go, SQL, Bash
-*   **Streaming & Queues:** Apache Kafka, Apache Flink, Spark Streaming
-*   **Distributed Processing:** Apache Spark, YARN
-*   **Databases & Warehouses:** PostgreSQL, ClickHouse, Redis, Google Cloud Bigtable
-*   **Storage & Lakehouse:** Apache Iceberg, MinIO, Parquet
-*   **Orchestration & Tools:** Apache Airflow, dbt, Debezium, Git
-*   **Infrastructure & DevOps:** Kubernetes (Kind/Minikube), Docker, Terraform, Helm, Prometheus, Grafana
+*   **Ingest:** Apache Kafka, Python, Rust
+*   **Process:** Apache Flink, Apache Spark
+*   **Store & Model:** Apache Iceberg, dbt, Trino
+*   **Run & Serve:** Airflow, Kubernetes, Docker, Terraform, AWS, GCP
+*   **Languages:** Python, SQL, Scala, Rust, Java, Bash
+*   **Currently learning:** Go
