@@ -9,9 +9,10 @@
 
 **Senior Data Engineer at Float.** Streaming and lakehouse engineer who turns billion-event pipelines into reliable, low-cost platforms. 8+ years across Float, Kraken, Shopify, Gale Partners and Tangerine.
 
+* At Float: architected the data platform end to end on Snowflake, dbt, dlt and Dagster, with infrastructure as code in Pulumi.
 * **90% less Spark compute** for crypto compliance reporting at Kraken.
 * **~3B events/day** through Apache Flink + Apache Kafka at Shopify, making merchant search 60% faster.
-* Co-built LLM agents at Shopify that diagnose failing pipelines and test SQL fixes in sandboxes.
+* Co-built LLM agents at Shopify that diagnosed failing pipelines and tested SQL fixes in sandboxes.
 * M.A.Sc. (thesis-based), University of Waterloo.
 * Ask me about: **Apache Kafka, Apache Flink, Apache Spark, Apache Iceberg or Airflow**.
 * Off hours: sci-fi, D&D (player and occasional DM), CrossFit.
@@ -44,9 +45,10 @@
 
 # Tech Stack
 
-*   **Ingest:** Apache Kafka, Python, Rust
+*   **Ingest:** Apache Kafka, dlt, Python, Rust
 *   **Process:** Apache Flink, Apache Spark
-*   **Store & Model:** Apache Iceberg, dbt, Trino
-*   **Run & Serve:** Airflow, Kubernetes, Docker, Terraform, AWS, GCP
+*   **Store & Model:** Snowflake, Apache Iceberg, dbt, Trino
+*   **Run & Serve:** Dagster, Airflow, Kubernetes, Docker, Pulumi, Terraform, AWS, GCP
 *   **Languages:** Python, SQL, Scala, Rust, Java, Bash
+*   **Machine learning:** XGBoost, scikit-learn
 *   **Currently learning:** Go
